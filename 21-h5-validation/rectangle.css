@@ -1,0 +1,29 @@
+h1{
+    background-color: green;
+}
+form{ 
+    font-size: 1.1em;
+    margin: 50px auto;
+    width:370px;
+}
+#calculate{   
+    margin-left: 62px;
+    width: 70px;
+}
+input:valid+span:after{
+    content: '√';
+    color: green;
+}
+input:invalid+span:after{
+    content: '×';
+    color: red;
+}
+span {
+    color: red;
+}
+#width-validation-message,
+#height-validation-message{
+    color: red;
+    margin-left: 2px;
+    font-size: 0.8em;
+}
