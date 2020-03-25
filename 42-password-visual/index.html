@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>密码可见组件</title>
+  <link rel="stylesheet" href="./layout.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1528714_9d090u3t1p.css">
+  
+</head>
+<body>
+  <input id="add-password" type="button" value="添加密码框"/>
+  <input id="get-password" type="button" value="获得密码"/>
+  <div class="main">
+    <!-- 密码： <input type="password" name="" class="pwd"  value="" />
+    <img src="./密码不可见.png" /> -->
+  </div>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./main.js"></script>
+<script>
+  $(function(){
+    var $btnAdd=$('#add-password'),
+        $btnGet=$('#get-password'),
+        conf={
+          val:[],
+          onClick:function() {
+            console.log('已添加')
+          } 
+        }
+    $btnAdd.click(function(){
+      $pwdEye.show(conf)
+      pwdTextboxs=conf.val;
+    })
+    $btnGet.click(function(){
+      for(var i = 0;i<conf.val.length;i++){
+        alert(conf.val[i])
+      }
+    })
+  })
+</script>
+</body>
+</html>
