@@ -31,7 +31,7 @@ define(['jquery'],function($){
                 }
             }, 1000);
             //2.event bind
-            $btn.click(cfg.onClick());
+            $btn.click(cfg.onClick);
         } 
     }
     return TimerButton;
