@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+#main{
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    margin: 50px auto;
+}
+input{
+    width: 200px;
+    height: 60px;
+}
