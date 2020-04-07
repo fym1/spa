@@ -1,0 +1,1 @@
+!function(){var e,s,i={};i.show=function(i){e=i,s=$('<div class="mvc-sizeview" title="Size View"></div>'),e.append(s),s.css({width:"0px",height:"0px"})},i.echange=function(i){var e=s.parent().width(),t=s.parent().height(),h=t/2*i/255,n=t/2-h/2,p=e/2-h/2;s.css({width:h+"px",height:h+"px",top:n+"px",left:p+"px"})},window.size=i}();

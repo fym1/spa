@@ -1,0 +1,1 @@
+!function(){var o,e,i={};i.show=function(i){o=i,e=$('<div class="mvc-colorview" title="color View"></div>'),o.append(e),e.css({opacity:0})},i.positionChange=function(){var i=e.parent().width(),o=e.parent().height(),t=o/2,c=o/2-t/2,n=i/2-t/2;e.css({width:t+"px",height:t+"px",top:c+"px",left:n+"px"})},i.echange=function(i){var o=i*(1/255);e.css({opacity:o})},window.color=i}();

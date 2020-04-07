@@ -1,0 +1,1 @@
+$(function(){var t=$("input"),n=$("img");n.mouseover(function(){n.attr("src","./密码可见.png"),t.attr("type","text")}),n.mouseleave(function(){n.attr("src","./密码不可见.png"),t.attr("type","password")})});

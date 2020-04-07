@@ -1,0 +1,1 @@
+$(function(){var l=$("#width"),m=$("#height"),u=($("#calculate"),$("#perimeter")),v=$("#area");$form=$("form"),$form.submit(function(a){a.preventDefault();var e=Number(l.val()),r=Number(m.val()),t=2+(e+r),$=e*r;u.val(t),v.val($)})});

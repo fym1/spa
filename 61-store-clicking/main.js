@@ -1,0 +1,1 @@
+$(function(){var n=$("#main>input"),t=localStorage.getItem("num")||0;n.val("被按了"+t+"次"),n.click(function(){t++,window.localStorage.setItem("num",t),n.val("被按了"+t+"次")})});

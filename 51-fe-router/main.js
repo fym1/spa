@@ -1,0 +1,1 @@
+$(function(){window.onhashchange=function(){var n=$(".main"),o=window.location.hash,i=o.substring(3,o.length);this.console.log(o),n.css({background:i})}});

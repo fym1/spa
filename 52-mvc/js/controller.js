@@ -1,0 +1,1 @@
+!function(){var n,l,o={};o.show=function(o){n=o,$controllerView=$('<input class="mvc-controller" type="range" min="0" max="255" value="0" title="Controllerr">'),n.append($controllerView)},o.echange=function(o){$controllerView.on("change",function(){l=$controllerView.val(),console.log($controllerView.val()),l})},window.controller=o}();
